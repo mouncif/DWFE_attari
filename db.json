@@ -1,0 +1,8 @@
+{
+    "periodicelements": [
+        { "position": 1, "name": "name 1", "weight": 1, "symbol": "M" },
+        { "position": 2, "name": "name 2", "weight": 1, "symbol": "M" },
+        { "position": 3, "name": "name 3", "weight": 1, "symbol": "M" },
+        { "position": 4, "name": "name 4", "weight": 1, "symbol": "M" }
+    ]
+}
