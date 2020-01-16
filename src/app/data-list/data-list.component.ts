@@ -29,5 +29,8 @@ export class DataListComponent implements OnInit {
       }
     )
   }
+  applyFilter(filterValue: string) {
+    this.listData.filter = filterValue.trim().toLowerCase();
+  }
 
 }
