@@ -10,6 +10,10 @@ import { ContentComponent } from './content/content.component';
 import { ListProduitComponent } from './components/produit/list-produit/list-produit.component';
 import { ProduitFormComponent } from './components/produit/produit-form/produit-form.component';
 import { AppRoutingModule } from './app-routing.module';
+import { UserService } from './_services/user.service';
+import { ProduitService } from './_services/produit.service';
+import { ListUsersComponent } from './components/user/list-users/list-users.component';
+import { UserFormComponent } from './components/user/user-form/user-form.component';
 
 
 
@@ -21,7 +25,9 @@ import { AppRoutingModule } from './app-routing.module';
     TopBarComponent,
     ContentComponent,
     ListProduitComponent,
-    ProduitFormComponent
+    ProduitFormComponent,
+    ListUsersComponent,
+    UserFormComponent
   ],
   imports: [
     BrowserModule,
@@ -30,7 +36,7 @@ import { AppRoutingModule } from './app-routing.module';
     HttpClientModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [UserService, ProduitService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

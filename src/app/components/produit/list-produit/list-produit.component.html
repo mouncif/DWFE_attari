@@ -1,1 +1,27 @@
-<p>list-produit works!</p>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Nom</th>
+            <th scope="col">Prix base</th>
+            <th scope="col">Prix vente</th>
+            <th scope="col">Qte Init</th>
+            <th scope="col">Qte Actuel</th>
+            <th scope="col">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let prod of produits">
+            <th scope="row">1</th>
+            <td>{{ prod.nom }}</td>
+            <td>{{ prod.prixBase }}</td>
+            <td>{{ prod.prixVente }}</td>
+            <td>{{ prod.qteInit }}</td>
+            <td>{{ prod.qteActuel }}</td>
+            <td>
+                <button class="btn btn-primary" (click)="updateProduit(prod)">Modifier</button>
+                <button class="btn btn-danger" (click)="deleteProduit(prod)">Supprimer</button>
+            </td>
+        </tr>
+    </tbody>
+</table>
