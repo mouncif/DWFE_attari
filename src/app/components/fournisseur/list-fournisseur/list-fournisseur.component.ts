@@ -37,7 +37,16 @@ export class ListFournisseurComponent implements OnInit {
     this.router.navigateByUrl('/fournisseur-form');
   }
   newFournisseur(){
-    let fournisseur :Fournisseur;
+    let fournisseur :Fournisseur= {
+      nom: '',
+      nom_court: '',
+      ville: '',
+      adresse: '',
+      fax: '',
+      mail: '',
+      telFix: '',
+      telMobile: '',
+    };
     this.fournisseurService.setter(fournisseur);
     this.router.navigateByUrl('/fournisseur-form');
   }

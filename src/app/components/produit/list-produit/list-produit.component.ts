@@ -36,7 +36,17 @@ export class ListProduitComponent implements OnInit {
     this.router.navigateByUrl('/produit-form');
   }
   newProduit(){
-    let produit :Produit;
+    let produit :Produit= {
+      nom: '',
+      nom_court: '',
+      prixBase: null,
+      prixVente: null,
+      image: '',
+      qteActuel: null,
+      qteInit: null,
+      seuilMax: null,
+      uniteProd: null
+    };
     this.produitService.setter(produit);
     this.router.navigateByUrl('/produit-form');
   }
