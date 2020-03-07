@@ -1,6 +1,9 @@
 .margs {
     width: 80% !important;
     margin-bottom: 15px;
+    border: 1px solid black;
+    background-color: white;
+    padding: 10px;
 }
 
 .divConfig {

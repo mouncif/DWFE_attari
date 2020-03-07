@@ -11,6 +11,18 @@
       "image": "zaeaze",
       "qteInit": 2,
       "qteActuel": 2
+    },
+    {
+      "nom": "erwin",
+      "nom_court": "erwin",
+      "prixBase": 1,
+      "prixVente": 1,
+      "image": "erwin",
+      "qteActuel": 1,
+      "qteInit": 1,
+      "seuilMax": 1,
+      "uniteProd": 1,
+      "id": 2
     }
   ],
   "users": [

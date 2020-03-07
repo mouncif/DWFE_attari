@@ -16,3 +16,7 @@
 .breadcrumb li {
     color: white;
 }
+
+.btn-margs {
+    margin-bottom: 10px;
+}
