@@ -12,5 +12,15 @@
       "qteInit": 2,
       "qteActuel": 2
     }
+  ],
+  "users": [
+    {
+      "date_creation": "2020-03-29",
+      "photo": "azeaze",
+      "date_fin": "2020-03-20",
+      "email": "LOL",
+      "profil": "LOL",
+      "id": 1
+    }
   ]
 }

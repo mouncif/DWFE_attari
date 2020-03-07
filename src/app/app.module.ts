@@ -15,6 +15,7 @@ import { ProduitService } from './_services/produit.service';
 import { ListUsersComponent } from './components/user/list-users/list-users.component';
 import { UserFormComponent } from './components/user/user-form/user-form.component';
 import { ProduitNavComponent } from './components/produit/produit-nav/produit-nav.component';
+import { UserNavComponent } from './components/user/user-nav/user-nav.component';
 
 
 
@@ -29,7 +30,8 @@ import { ProduitNavComponent } from './components/produit/produit-nav/produit-na
     ProduitFormComponent,
     ListUsersComponent,
     UserFormComponent,
-    ProduitNavComponent
+    ProduitNavComponent,
+    UserNavComponent
   ],
   imports: [
     BrowserModule,
