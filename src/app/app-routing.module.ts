@@ -4,13 +4,17 @@ import { ListProduitComponent } from './components/produit/list-produit/list-pro
 import { ProduitFormComponent } from './components/produit/produit-form/produit-form.component';
 import { ListUsersComponent } from './components/user/list-users/list-users.component';
 import { UserFormComponent } from './components/user/user-form/user-form.component';
+import { FournisseurFormComponent } from './components/fournisseur/fournisseur-form/fournisseur-form.component';
+import { ListFournisseurComponent } from './components/fournisseur/list-fournisseur/list-fournisseur.component';
 
 const routes: Routes =[
     { path: '', redirectTo: '/produits', pathMatch: 'full'},
     { path: 'produits', component: ListProduitComponent },
     { path: 'produit-form', component: ProduitFormComponent },
     { path: 'users', component: ListUsersComponent },
-    { path: 'user-form', component: UserFormComponent }
+    { path: 'user-form', component: UserFormComponent },
+    { path: 'fournisseur-form', component: FournisseurFormComponent },
+    { path: 'fournisseurs', component: ListFournisseurComponent },
 ];
 
 

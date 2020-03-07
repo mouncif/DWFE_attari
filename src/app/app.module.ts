@@ -16,6 +16,9 @@ import { ListUsersComponent } from './components/user/list-users/list-users.comp
 import { UserFormComponent } from './components/user/user-form/user-form.component';
 import { ProduitNavComponent } from './components/produit/produit-nav/produit-nav.component';
 import { UserNavComponent } from './components/user/user-nav/user-nav.component';
+import { ListFournisseurComponent } from './components/fournisseur/list-fournisseur/list-fournisseur.component';
+import { FournisseurFormComponent } from './components/fournisseur/fournisseur-form/fournisseur-form.component';
+import { FournisseurNavComponent } from './components/fournisseur/fournisseur-nav/fournisseur-nav.component';
 
 
 
@@ -31,7 +34,10 @@ import { UserNavComponent } from './components/user/user-nav/user-nav.component'
     ListUsersComponent,
     UserFormComponent,
     ProduitNavComponent,
-    UserNavComponent
+    UserNavComponent,
+    ListFournisseurComponent,
+    FournisseurFormComponent,
+    FournisseurNavComponent
   ],
   imports: [
     BrowserModule,
