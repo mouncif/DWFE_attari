@@ -1,3 +1,4 @@
+<app-produit-nav></app-produit-nav>
 <table class="table table-striped">
     <thead>
         <tr>
@@ -20,6 +21,7 @@
             <td>{{ prod.qteActuel }}</td>
             <td>
                 <button class="btn btn-primary" (click)="updateProduit(prod)">Modifier</button>
+                <span>&nbsp;&nbsp;</span>
                 <button class="btn btn-danger" (click)="deleteProduit(prod)">Supprimer</button>
             </td>
         </tr>
