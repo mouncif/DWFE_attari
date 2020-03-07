@@ -1,29 +1,77 @@
-/* You can add global styles to this file, and also import other style files */
-
-@import '@angular/material/prebuilt-themes/indigo-pink.css';
-html,
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500');
 body {
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+
+/* Toggle Styles */
+
+#viewport {
+    padding-left: 250px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#content {
+    width: 100%;
+    position: relative;
+    margin-right: 0;
+}
+
+
+/* Sidebar Styles */
+
+#sidebar {
+    z-index: 1000;
+    position: fixed;
+    left: 250px;
+    width: 250px;
     height: 100%;
+    margin-left: -250px;
+    overflow-y: auto;
+    background: #37474F;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 
-body {
-    margin: 0;
-    font-family: Roboto, "Helvetica Neue", sans-serif;
+#sidebar header {
+    background-color: #263238;
+    font-size: 20px;
+    line-height: 52px;
+    text-align: center;
 }
 
-table {
-    width: 100%;
+#sidebar header a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
 }
 
-div.container {
-    margin: 0px 40px;
+#sidebar header a:hover {
+    color: #fff;
 }
 
-.fill-remaining-space {
-    flex: 1 1 auto;
-}
+#sidebar .nav {}
 
-.mat-form-field {
+#sidebar .nav a {
+    background: none;
+    border-bottom: 1px solid #455A64;
+    color: #CFD8DC;
     font-size: 14px;
-    width: 100%;
+    padding: 16px 24px;
+}
+
+#sidebar .nav a:hover {
+    background: none;
+    color: #ECEFF1;
+}
+
+#sidebar .nav a i {
+    margin-right: 16px;
 }

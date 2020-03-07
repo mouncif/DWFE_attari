@@ -1,8 +1,9 @@
-<div class="container">
-    <mat-toolbar>
-        <span class="fill-remaining-space"></span>
-        <span>Angular & material</span>
-        <span class="fill-remaining-space"></span>
-    </mat-toolbar>
-    <app-data-list></app-data-list>
+<div id="viewport">
+    <app-sidebar></app-sidebar>
+    <div id="content">
+        <app-top-bar></app-top-bar>
+        <div class="container-fluid">
+            <app-content></app-content>
+        </div>
+    </div>
 </div>
