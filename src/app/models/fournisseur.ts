@@ -7,5 +7,5 @@ export interface Fournisseur {
     telFix: string,
     telMobile: string,
     fax: string,
-    mail
+    mail:string
 }
