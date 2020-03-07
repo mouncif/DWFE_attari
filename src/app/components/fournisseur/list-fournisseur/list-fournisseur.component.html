@@ -1,1 +1,29 @@
-<p>list-fournisseur works!</p>
+<app-fournisseur-nav></app-fournisseur-nav>
+<table class="table table-margs">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Nom</th>
+            <th scope="col">Ville</th>
+            <th scope="col">Adresse</th>
+            <th scope="col">Tel mobile</th>
+            <th scope="col">Email</th>
+            <th scope="col">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let f of fournisseurs">
+            <th scope="row">1</th>
+            <td>{{ f.nom }}</td>
+            <td>{{ f.ville }}</td>
+            <td>{{ f.adresse }}</td>
+            <td>{{ f.telMobile }}</td>
+            <td>{{ f.mail }}</td>
+            <td>
+                <button class="btn btn-primary" (click)="updateFournisseur(f)">Modifier</button>
+                <span>&nbsp;&nbsp;</span>
+                <button class="btn btn-danger" (click)="deleteFournisseur(f)">Supprimer</button>
+            </td>
+        </tr>
+    </tbody>
+</table>

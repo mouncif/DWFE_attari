@@ -34,5 +34,18 @@
       "profil": "LOL",
       "id": 1
     }
+  ],
+  "fournisseurs": [
+    {
+      "nom": "ssss",
+      "nom_court": "aeze",
+      "ville": "aeze",
+      "adresse": "aeze",
+      "fax": "aeze",
+      "mail": "aeze",
+      "telFix": "aeze",
+      "telMobile": "v",
+      "id": 1
+    }
   ]
 }
