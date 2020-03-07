@@ -1,51 +1,47 @@
 {
-  "produits": [
-    {
-      "id": 1,
-      "nom": "fuck you",
-      "nom_court": "fake1",
-      "prixBase": 2,
-      "prixVente": 2,
-      "seuilMax": 2,
-      "uniteProd": 2,
-      "image": "zaeaze",
-      "qteInit": 2,
-      "qteActuel": 2
-    },
-    {
-      "nom": "erwin",
-      "nom_court": "erwin",
-      "prixBase": 1,
-      "prixVente": 1,
-      "image": "erwin",
-      "qteActuel": 1,
-      "qteInit": 1,
-      "seuilMax": 1,
-      "uniteProd": 1,
-      "id": 2
-    }
-  ],
-  "users": [
-    {
-      "date_creation": "2020-03-29",
-      "photo": "azeaze",
-      "date_fin": "2020-03-20",
-      "email": "LOL",
-      "profil": "LOL",
-      "id": 1
-    }
-  ],
-  "fournisseurs": [
-    {
-      "nom": "ssss",
-      "nom_court": "aeze",
-      "ville": "aeze",
-      "adresse": "aeze",
-      "fax": "aeze",
-      "mail": "aeze",
-      "telFix": "aeze",
-      "telMobile": "v",
-      "id": 1
-    }
-  ]
+    "produits": [{
+            "id": 1,
+            "nom": "fuck you",
+            "nom_court": "fake1",
+            "prixBase": 2,
+            "prixVente": 2,
+            "seuilMax": 2,
+            "uniteProd": 2,
+            "image": "zaeaze",
+            "qteInit": 2,
+            "qteActuel": 2
+        },
+        {
+            "nom": "erwin",
+            "nom_court": "erwin",
+            "prixBase": 1,
+            "prixVente": 1,
+            "image": "erwin",
+            "qteActuel": 1,
+            "qteInit": 1,
+            "seuilMax": 1,
+            "uniteProd": 1,
+            "id": 2
+        }
+    ],
+    "users": [{
+        "date_creation": "2020-03-29",
+        "photo": "azeaze",
+        "date_fin": "2020-03-20",
+        "email": "LOL",
+        "profil": "LOL",
+        "id": 1
+    }],
+    "fournisseurs": [{
+        "nom": "ssss",
+        "nom_court": "aeze",
+        "ville": "aeze",
+        "adresse": "aeze",
+        "fax": "aeze",
+        "mail": "aeze",
+        "telFix": "aeze",
+        "telMobile": "v",
+        "id": 1
+    }],
+    "clients": []
 }
