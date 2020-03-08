@@ -13,6 +13,8 @@ export class UserFormComponent implements OnInit {
   private user:User;
   onAddOrUpdate: boolean = true;
 
+  profils = ['ADMIN', 'USER', 'EDITOR'];
+
   constructor(private userService: UserService, private router: Router) { }
 
   ngOnInit() {

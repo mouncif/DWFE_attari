@@ -52,11 +52,20 @@
   "users": [
     {
       "date_creation": "2020-03-29",
-      "photo": "azeaze",
+      "photo": "https://pngimage.net/wp-content/uploads/2018/05/button-profil-png-8.png",
       "date_fin": "2020-03-20",
       "email": "LOL",
       "profil": "LOL",
       "id": 1
+    },
+    {
+      "date_creation": "2020-03-14",
+      "photo": "https://pngimage.net/wp-content/uploads/2018/06/profil-png-5.png",
+      "date_fin": "2020-03-14",
+      "email": "d",
+      "profil": "EDITOR",
+      "identifiant": "d",
+      "id": 2
     }
   ],
   "fournisseurs": [
