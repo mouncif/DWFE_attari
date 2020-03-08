@@ -1,5 +1,21 @@
-<app-user-nav></app-user-nav>
-<table class="table table-striped">
+<div class="divConfig">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item">Home</li>
+        <li class="breadcrumb-item active" aria-current="page">Utilisateur</li>
+    </ol>
+    <div class="container">
+        <h3>Gestion des Utilisateurs</h3>
+    </div>
+</div>
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <ul class="nav navbar-nav">
+            <li><a (click)="newUser()" style="cursor: pointer;">Ajouter Utilisateur</a></li>
+            <li><a routerLink="/users">Listes Utilisateurs</a></li>
+        </ul>
+    </div>
+</nav>
+<table class="table table-margs">
     <thead>
         <tr>
             <th scope="col">#</th>
@@ -11,8 +27,8 @@
         </tr>
     </thead>
     <tbody>
-        <tr *ngFor="let user of users">
-            <th scope="row">1</th>
+        <tr *ngFor="let user of users; let i=index">
+            <th scope="row">{{ i+1 }}</th>
             <td>{{ user.profil }}</td>
             <td>{{ user.email }}</td>
             <td>{{ user.date_creation }}</td>

@@ -13,7 +13,8 @@ export class UserService {
     photo: '',
     date_fin: null,
     email: '',
-    profil: ''
+    profil: '',
+    identifiant:''
   };
   constructor(private http: HttpClient) { }
 

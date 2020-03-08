@@ -4,5 +4,6 @@ export interface User {
     date_fin: Date,
     photo: string,
     email: string,
-    profil: string
+    profil: string,
+    identifiant:string
 }

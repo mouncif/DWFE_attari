@@ -14,7 +14,6 @@ import { UserService } from './_services/user.service';
 import { ProduitService } from './_services/produit.service';
 import { ListUsersComponent } from './components/user/list-users/list-users.component';
 import { UserFormComponent } from './components/user/user-form/user-form.component';
-import { UserNavComponent } from './components/user/user-nav/user-nav.component';
 import { ListFournisseurComponent } from './components/fournisseur/list-fournisseur/list-fournisseur.component';
 import { FournisseurFormComponent } from './components/fournisseur/fournisseur-form/fournisseur-form.component';
 import { ListClientComponent } from './components/client/list-client/list-client.component';
@@ -33,7 +32,6 @@ import { ClientFormComponent } from './components/client/client-form/client-form
     ProduitFormComponent,
     ListUsersComponent,
     UserFormComponent,
-    UserNavComponent,
     ListFournisseurComponent,
     FournisseurFormComponent,
     ListClientComponent,

@@ -37,7 +37,14 @@ export class ListUsersComponent implements OnInit {
     this.router.navigateByUrl('/user-form');
   }
   newUser(){
-    let user :User;
+    let user :User= {
+      date_creation: null,
+      photo: '',
+      date_fin: null,
+      email: '',
+      profil: '',
+      identifiant:''
+    };
     this.userService.setter(user);
     this.router.navigateByUrl('/user-form');
   }
