@@ -2,7 +2,7 @@
   "produits": [
     {
       "id": 1,
-      "nom": "fuck you",
+      "nom": "prod 1",
       "nom_court": "fake1",
       "prixBase": 2,
       "prixVente": 2,
@@ -23,30 +23,6 @@
       "seuilMax": 1,
       "uniteProd": 1,
       "id": 2
-    },
-    {
-      "nom": "a",
-      "nom_court": "a",
-      "prixBase": 1,
-      "prixVente": 1,
-      "image": "1",
-      "qteActuel": 1,
-      "qteInit": 1,
-      "seuilMax": 1,
-      "uniteProd": 1,
-      "id": 3
-    },
-    {
-      "nom": "z",
-      "nom_court": "z",
-      "prixBase": 2,
-      "prixVente": 2,
-      "image": "2",
-      "qteActuel": 2,
-      "qteInit": 2,
-      "seuilMax": 2,
-      "uniteProd": 2,
-      "id": 4
     }
   ],
   "users": [
@@ -54,78 +30,45 @@
       "date_creation": "2020-03-29",
       "photo": "https://pngimage.net/wp-content/uploads/2018/05/button-profil-png-8.png",
       "date_fin": "2020-03-20",
-      "email": "LOL",
+      "email": "lol@gmail.com",
       "profil": "EDITOR",
       "id": 1,
-      "identifiant": "rekt"
+      "identifiant": "jhon"
     },
     {
       "date_creation": "2020-03-14",
       "photo": "https://pngimage.net/wp-content/uploads/2018/06/profil-png-5.png",
       "date_fin": "2020-03-14",
-      "email": "d",
+      "email": "mail@something.com",
       "profil": "EDITOR",
-      "identifiant": "d",
+      "identifiant": "jhon",
       "id": 2
     }
   ],
   "fournisseurs": [
     {
-      "nom": "ssss",
-      "nom_court": "aeze",
-      "ville": "aeze",
-      "adresse": "aeze",
-      "fax": "aeze",
-      "mail": "aeze",
-      "telFix": "aeze",
-      "telMobile": "v",
-      "id": 1
-    },
-    {
-      "nom": "a",
-      "nom_court": "a",
-      "ville": "a",
-      "adresse": "a",
-      "fax": "a",
-      "mail": "a",
-      "telFix": "a",
-      "telMobile": "a",
+      "nom": "fournisseur 1",
+      "nom_court": "fournisseur 1",
+      "ville": "ville 1",
+      "adresse": "N1 fournisseur 1",
+      "fax": "1231",
+      "mail": "fournisseur1@gmail.com",
+      "telFix": "123123123",
+      "telMobile": "182U31823",
       "id": 2
-    },
-    {
-      "nom": "o",
-      "nom_court": "o",
-      "ville": "o",
-      "adresse": "o",
-      "fax": "o",
-      "mail": "o",
-      "telFix": "o",
-      "telMobile": "o",
-      "id": 3
     }
   ],
   "clients": [
     {
-      "nom": "a",
-      "prenom": "a",
-      "ville": "a",
-      "adresse": "a",
-      "status": "a",
-      "photo": "a",
-      "email": "",
-      "tel": "a",
+      "nom": "client1",
+      "prenom": "client1",
+      "ville": "ville 2",
+      "adresse": "adresse 1",
+      "status": "client1",
+      "photo": "client1",
+      "email": "client1@mail.Com",
+      "tel": "123123",
       "id": 1
-    },
-    {
-      "nom": "k",
-      "prenom": "k",
-      "ville": "k",
-      "adresse": "k",
-      "status": "k",
-      "photo": "k",
-      "email": "kkk",
-      "tel": "k",
-      "id": 2
     }
   ]
 }
