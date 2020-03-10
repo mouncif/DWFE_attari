@@ -34,8 +34,8 @@
         </tr>
     </thead>
     <tbody>
-        <tr *ngFor="let f of fournisseurs">
-            <th scope="row">1</th>
+        <tr *ngFor="let f of fournisseurs; let i =index">
+            <th scope="row">{{ i+1 }}</th>
             <td>{{ f.nom }}</td>
             <td>{{ f.ville }}</td>
             <td>{{ f.adresse }}</td>
