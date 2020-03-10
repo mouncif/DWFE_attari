@@ -126,3 +126,7 @@ li {
     color: #FFAA56;
     border-bottom: 2px solid #FFAA56;
 }
+
+.navbar-default .navbar-nav>li>a:hover {
+    padding-bottom: 10px;
+}
