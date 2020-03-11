@@ -8,7 +8,7 @@
       "prixVente": 15,
       "seuilMax": 12,
       "uniteProd": 200,
-      "image": "https://pngimage.net/wp-content/uploads/2018/06/product-png-6.png",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/61JyHHUmHhL._AC_UX679_.jpg",
       "qteInit": 100,
       "qteActuel": 50
     },
@@ -17,7 +17,7 @@
       "nom_court": "Porduct 2",
       "prixBase": 23,
       "prixVente": 26,
-      "image": "https://www.icone-png.com/png/39/39302.png",
+      "image": "https://www.assuredzone.com/om/wp-content/uploads/sites/107/2020/01/Samsung-Galaxy-A50.jpg",
       "qteActuel": 1500,
       "qteInit": 2000,
       "seuilMax": 25,
@@ -28,7 +28,7 @@
   "users": [
     {
       "date_creation": "2020-03-29",
-      "photo": "https://pngimage.net/wp-content/uploads/2018/05/button-profil-png-8.png",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRLlmiwWdYDmhY3GZkX-TBQCwSiAtgzxCvrXFM7_pDIsKB1Szo9",
       "date_fin": "2020-03-20",
       "email": "lol@gmail.com",
       "profil": "EDITOR",
@@ -65,7 +65,7 @@
       "ville": "ville 2",
       "adresse": "adresse 1",
       "status": "client1",
-      "photo": "https://lh3.googleusercontent.com/proxy/o1-RAmet7OXEVOGmQEcBJs4uhpBuHp85l0k8zw7H9ZiDWM5Nuzw6g2UmEIjAHvaCxIpG6VCCQIL_iWNvtwj0fhrzlHgdWuhDzceC_tQ3Qutd9p0amSua-nfrY4dT2BPBQugtuT7f8xi-Sg",
+      "photo": "https://i.ya-webdesign.com/images/vector-avatars-minimalist-18.png",
       "email": "client1@mail.Com",
       "tel": "123123",
       "id": 1
@@ -76,7 +76,7 @@
       "ville": "ville client 1",
       "adresse": "adresse client 1",
       "status": "client 1",
-      "photo": "https://www.bsn.eu/wp-content/uploads/2016/12/user-icon-image-placeholder.jpg",
+      "photo": "https://img.icons8.com/plasticine/2x/user-female.png",
       "email": "client 1",
       "tel": "client 1",
       "id": 2
