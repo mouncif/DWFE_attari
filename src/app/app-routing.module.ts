@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/Router';
+import { Routes, RouterModule } from '@angular/router';
 import { ListProduitComponent } from './components/produit/list-produit/list-produit.component';
 import { ProduitFormComponent } from './components/produit/produit-form/produit-form.component';
 import { ListUsersComponent } from './components/user/list-users/list-users.component';

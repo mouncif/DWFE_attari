@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Produit } from '../../../models/produit';
 import { ProduitService } from '../../../_services/produit.service';
-import { Router } from '@angular/Router';
+import { Router } from '@angular/router';
 @Component({
   selector: 'app-produit-form',
   templateUrl: './produit-form.component.html',
