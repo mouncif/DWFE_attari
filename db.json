@@ -65,10 +65,21 @@
       "ville": "ville 2",
       "adresse": "adresse 1",
       "status": "client1",
-      "photo": "client1",
+      "photo": "https://lh3.googleusercontent.com/proxy/o1-RAmet7OXEVOGmQEcBJs4uhpBuHp85l0k8zw7H9ZiDWM5Nuzw6g2UmEIjAHvaCxIpG6VCCQIL_iWNvtwj0fhrzlHgdWuhDzceC_tQ3Qutd9p0amSua-nfrY4dT2BPBQugtuT7f8xi-Sg",
       "email": "client1@mail.Com",
       "tel": "123123",
       "id": 1
+    },
+    {
+      "nom": "client 1",
+      "prenom": "client 1",
+      "ville": "ville client 1",
+      "adresse": "adresse client 1",
+      "status": "client 1",
+      "photo": "https://www.bsn.eu/wp-content/uploads/2016/12/user-icon-image-placeholder.jpg",
+      "email": "client 1",
+      "tel": "client 1",
+      "id": 2
     }
   ]
 }
