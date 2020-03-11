@@ -9,6 +9,11 @@ thead {
     border-bottom: 1px solid black;
 }
 
+td,
+th {
+    vertical-align: middle !important;
+}
+
 
 /* .divConfig li {
     color: white;

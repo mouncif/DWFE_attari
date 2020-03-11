@@ -2,27 +2,27 @@
   "produits": [
     {
       "id": 1,
-      "nom": "prod 1",
-      "nom_court": "fake1",
-      "prixBase": 2,
-      "prixVente": 2,
-      "seuilMax": 2,
-      "uniteProd": 2,
-      "image": "zaeaze",
-      "qteInit": 2,
-      "qteActuel": 2
+      "nom": "product 1",
+      "nom_court": "product 1",
+      "prixBase": 10,
+      "prixVente": 15,
+      "seuilMax": 12,
+      "uniteProd": 200,
+      "image": "https://pngimage.net/wp-content/uploads/2018/06/product-png-6.png",
+      "qteInit": 100,
+      "qteActuel": 50
     },
     {
-      "nom": "erwin",
-      "nom_court": "erwin",
-      "prixBase": 1,
-      "prixVente": 1,
-      "image": "erwin",
-      "qteActuel": 1,
-      "qteInit": 1,
-      "seuilMax": 1,
-      "uniteProd": 1,
-      "id": 2
+      "nom": "Porduct 2",
+      "nom_court": "Porduct 2",
+      "prixBase": 23,
+      "prixVente": 26,
+      "image": "https://www.icone-png.com/png/39/39302.png",
+      "qteActuel": 1500,
+      "qteInit": 2000,
+      "seuilMax": 25,
+      "uniteProd": 100,
+      "id": 3
     }
   ],
   "users": [

@@ -26,7 +26,7 @@
         <tr>
             <th scope="col">#</th>
             <th scope="col">Nom</th>
-            <th scope="col">Prix base</th>
+            <th scope="col">Image</th>
             <th scope="col">Prix vente</th>
             <th scope="col">Qte Init</th>
             <th scope="col">Qte Actuel</th>
@@ -37,7 +37,7 @@
         <tr *ngFor="let prod of produits; let i=index">
             <th scope="row">{{i+1}}</th>
             <td>{{ prod.nom }}</td>
-            <td>{{ prod.prixBase }}</td>
+            <td><img src="{{ prod.image }}" style="height: 100px;" alt=""></td>
             <td>{{ prod.prixVente }}</td>
             <td>{{ prod.qteInit }}</td>
             <td>{{ prod.qteActuel }}</td>
